@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="background-color:#C9D4F5">
+    <form action="conexion.php" method="POST">
+        Datos personales
+        <br>
+        <input type="text" name="nombre" placeholder="Nombre(s)">
+        <input type="text" name="apellidopaterno" placeholder="Apellido paterno" >
+        <input type="text" name="apellidomaterno" placeholder="Apellido materno" >
+        <br><br>
+        <input type="text" name="nacionalidad" placeholder="Nacionalidad">
+        <input type="text" name="estados" placeholder="Estado">
+        <input type="text" name="tipoidentificacion" placeholder="Tipo de identificacion">
+
+        <p>
+            Indica como contactarte por cualquier duda
+            <br>
+            <input type="text" name="correo" placeholder="Correo" >
+             <input type="tel" name="telefono" placeholder="Numero de celular" >
+        </p>
+
+            <p>
+                 Domicilio
+            <br>
+            <input type="text" name="calle" size="40" placeholder="Calle" >
+             <input type="number" name="codigopostal" size="25" placeholder="Codigo postal" >
+            </p>
+
+            <button type="submit" name="registrate" value="registrate">Solicitar</button>
+
+
+    </form>
+</body>
+</html>
